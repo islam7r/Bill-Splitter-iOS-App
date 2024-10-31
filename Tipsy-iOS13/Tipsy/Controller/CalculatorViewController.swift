@@ -30,6 +30,8 @@ class CalculatorViewController: UIViewController {
         
     }
     @IBAction func tipChanged(_ sender: UIButton) {
+
+         billTextField.endEditing(true)
         
         zeroPctButton.isSelected = false
         tenPctButton.isSelected = false
